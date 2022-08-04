@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="98.419">
+    <testcase classname="Tapu.com Automation test" name="Login" time="97.888">
+        <system-out>
+            <![CDATA[Given User navigate to "TapuHomepage".......................................passed
+Then Verify is homepage open................................................passed
+And Login to this site and Verify for successful login......................passed
+Given Navigate to the bottom of this site...................................passed
+Then Clickability is verify in the fields under the headings -Gayrimenkul Danismanlarimiz- and -Sozlesmeler-.passed
+And Verify whether the texts of the h1 tag on the redirected pages are the same as the previous page.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

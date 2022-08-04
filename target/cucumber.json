@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-04T04:45:31.400Z",
+        "line": 16,
+        "name": "Login",
+        "description": "",
+        "id": "tapu.com-automation-test;login",
+        "after": [
+          {
+            "result": {
+              "duration": 10512804400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7340837700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to \"TapuHomepage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TapuHomepage\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.StepDefinition.user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31250800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify is homepage open",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.verify_is_homepage_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3939250800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Login to this site and Verify for successful login",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.login_to_this_site_and_verify_for_successful_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8396631300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Navigate to the bottom of this site",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.navigate_to_the_bottom_of_this_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41172280700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Clickability is verify in the fields under the headings -Gayrimenkul Danismanlarimiz- and -Sozlesmeler-",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.clickabilityIsVerifyInTheFieldsUnderTheHeadingsGayrimenkulDanismanlarimizAndSozlesmeler()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26383245100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify whether the texts of the h1 tag on the redirected pages are the same as the previous page",
+            "match": {
+              "location": "stepdefinitions.StepDefinition.verify_whether_the_texts_of_the_h1_tag_on_the_redirected_pages_are_the_same_as_the_previous_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Case2"
+          }
+        ]
+      }
+    ],
+    "name": "Tapu.com Automation test",
+    "description": "",
+    "id": "tapu.com-automation-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Tapu.feature",
+    "tags": []
+  }
+]
